@@ -1,0 +1,118 @@
+body {
+  margin: auto 0;
+  background-image: url(../images/kayak.jpg);
+  background-size: 1350px;
+  z-index: -1;
+}
+
+#top {
+  text-align: center;
+  background-color: rgb(197, 0, 0);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  color: white;
+}
+
+#line {
+  width: 2000px;
+  background-color: white;
+  height: 10px;
+  position: fixed;
+  top: 70px;
+  z-index: +2;
+}
+
+#nav {
+  background-color: rgb(197, 0, 0);
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 200px;
+  text-align: center;
+  color: white;
+}
+#verline {
+  width: 15px;
+  height: 800px;
+  background-color: white;
+  z-index: +2;
+  position: fixed;
+  position: absolute;
+  top: 70px;
+}
+
+.navlinks {
+  position: relative;
+  top: 30%;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  margin-top: 35px;
+  color: white;
+}
+
+#nav :visited {
+  color: rgb(255, 255, 255);
+}
+
+nav#nav .navlinks:hover {
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  width: 100%;
+  background-color: rgb(197, 0, 0);
+  height: 35px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.resimler {
+  width: 300px;
+  border: solid 2px;
+  border-radius: 10%;
+}
+
+#kayıt {
+  display: inline-block;
+  margin-top: 10%;
+  margin-left: 30%;
+  border-radius: 15%;
+  border: solid 6px white;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+#kayıt:hover {
+  background-color: red;
+  opacity: 0.8;
+  color: white;
+}
+
+.formyazı {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 0px;
+}
+
+#button {
+  margin-top: 3px;
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 40px;
+}
